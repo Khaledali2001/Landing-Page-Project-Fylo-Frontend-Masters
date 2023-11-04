@@ -5,3 +5,13 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+:root {
+  --color-text-on-primary: #080538;
+  --color-text-on-secondary: #595a8a;
+  --color-button-primary-bg: ;
+  --color-button-primary-text: ;
+  --color-button-secondary-bg: ;
+  --color-button-secondary-text: ;
+  --font-family: "Raleway", sans-serif;
+  --font-family: "Open Sans", sans-serif;
+}
