@@ -2,3 +2,4 @@
  
 Fylo Landing Page With Two Column Layout
 
+Challenge by Frontend Mentor. Coded by Khaled Ali.
