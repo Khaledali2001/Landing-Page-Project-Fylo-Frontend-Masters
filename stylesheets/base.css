@@ -5,13 +5,29 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+* {
+  box-sizing: border-box;
+}
 :root {
+  /* primary colors */
   --color-text-on-primary: #080538;
-  --color-text-on-secondary: #595a8a;
-  --color-button-primary-bg: ;
-  --color-button-primary-text: ;
-  --color-button-secondary-bg: ;
-  --color-button-secondary-text: ;
-  --font-family: "Raleway", sans-serif;
-  --font-family: "Open Sans", sans-serif;
+  /* Secondary colors */
+  --color-secondary: #595a8a;
+  --heading-color-text-on-secondary: #f5f5ff;
+  --body-color-text-on-secondary: #bfbfbf;
+  /* third colors */
+  --bg-color-footer: var(--color-text-on-primary);
+  --color-text-on-footer: var(--heading-color-text-on-secondary);
+  /* button colors */
+  --color-button-primary-bg: #3065f8;
+  --color-button-primary-text: #f6f6fe;
+  --button-shadow: 2px 2px 5px 1px rgba(7, 4, 57, 0.3);
+  /* link colors */
+  --color-link-primary: #3d9e8e;
+  /* fonts */
+  --heading-font-family: "Raleway", sans-serif;
+  --main-font-family: "Open Sans", sans-serif;
+}
+p {
+  font-size: 16px;
 }
