@@ -24,7 +24,61 @@
 p {
   font-size: 16px;
 }
-
+.header {
+  padding: 3% 5%;
+}
+.header__logo {
+  vertical-align: middle;
+  padding-right: 50%;
+}
+.nav__links {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav__link {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: var(--color-secondary);
+  padding-right: 5%;
+  margin-top: -2.5%;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5%;
+}
+.header__left-section {
+  flex: 1;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.header__heading {
+  color: var(--color-text-on-primary);
+  line-height: 1.5;
+}
+.header__content {
+  color: var(--color-secondary);
+}
+.header__form-email {
+  padding: 12px 50px;
+}
+.header__form-btn {
+  background-color: var(--color-button-primary-bg);
+  color: var(--color-button-primary-text);
+  border: 5px solid var(--color-button-primary-bg);
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 9px 70px;
+  border-radius: 3px;
+  box-shadow: var(--button-shadow);
+}
+.header__right-section {
+  flex: 1;
+}
+.header__right-section > .header__illustration {
+  width: 100%;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
