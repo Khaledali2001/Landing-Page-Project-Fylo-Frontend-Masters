@@ -19,7 +19,9 @@
     <link rel="stylesheet" href="./stylesheets/index.css" />
   </head>
   <body class="body body--primary">
+    <!-- header -->
     <header class="header">
+      <!-- nav -->
       <nav class="nav">
         <img class="header__logo" src="./images/logo.svg" alt="logo-fylo" />
         <div class="nav__links">
@@ -29,7 +31,9 @@
         </div>
       </nav>
     </header>
+    <!-- main -->
     <main class="main">
+      <!-- first section  -->
       <section class="header__container">
         <section class="header__left-section">
           <h1 class="header__heading">
@@ -60,66 +64,61 @@
           />
         </section>
       </section>
-      <section class="productive__section">
-        <section class="productive__left-section">
-          <h2 class="productive__heading">Stay productive, wherever you are</h2>
-          <p class="productive__content">
+      <!-- bg illustration -->
+      <section class="bg-curve__container"></section>
+      <!-- second section  -->
+      <section class="main__content__section section-2">
+        <section class="section__left-section">
+          <h2 class="section__left_title">Stay productive, wherever you are</h2>
+          <p class="section__left_content-text">
             Never let location be an issue when accessing your files. Fylo has
             you covered for all of your file storage needs.
           </p>
-          <p class="productive__content-2">
-            Never let location be an issue when accessing your files. Fylo has
-            you covered for all of your file storage needs.
+          <p class="section__left_content-text">
+            Securely share files and folders with friends, family and colleagues
+            for live collaboration. No email attachments required!
           </p>
-          <a href="#" class="productive__link">
-            See how Fylo works
-            <img src="./images/icon-arrow.svg" alt="" class="link__arrow" />
+          <a href="#" class="section__left_link"
+            >See how Fylo works
+            <span>
+              <img
+                class="link__img"
+                src="./images/icon-arrow.svg"
+                alt="icon-arrow"
+              />
+            </span>
           </a>
-          <section class="productive__right-section">
+          <blockquote class="section__left_blockquote">
             <img
-              class="productive__illustration"
-              src="./images/illustration-2.svg"
-              alt="illustration"
-            />
-          </section>
-          <section class="productive__card">
-            <img
+              class="blockquote__img"
               src="./images/icon-quotes.svg"
-              alt="quote"
-              class="card__quote"
+              alt="icon-quotes"
             />
-            <p class="card__content">
+            <p class="blockquote__content">
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
               collaboration machine.
             </p>
             <img
-              class="card__profile-img"
+              class="blockquote__profile_pic"
               src="./images/avatar-testimonial.jpg"
-              alt="profile-img"
+              alt="avatar-testimonial"
             />
-            <h3 class="card__name">Kyle Burton</h3>
-            <span class="card__job">Founder & CEO, Huddle</span>
-          </section>
+            <div class="blockquote__container">
+              <h3 class="blockquote__name">Kyle Burton</h3>
+              <span class="blockquote__job">Founder & CEO, Huddle </span>
+            </div>
+          </blockquote>
+        </section>
+        <section class="section__right-section">
+          <img
+            class="section__right_img"
+            src="./images/illustration-2.svg"
+            alt="illustration-2"
+          />
         </section>
       </section>
-      <section class="main__early__access-section">
-        <section class="early__access-section__left-side">
-          <h2 class="heading__early">Get early access today</h2>
-          <p class="content__early">
-            It only takes a minute to sign up and our free starter tier is
-            extremely generous. If you have any questions, our support team
-            would be happy to help you.
-          </p>
-        </section>
-        <section class="early__access-section__right-side">
-          <form class="early__access-form">
-            <input class="early__form-email" type="text" />
-            <a class="early__access-form-btn" href="">Get Started For Free</a>
-          </form>
-        </section>
-      </section>
+      <!-- section 3 -->
     </main>
-    <footer class="footer"></footer>
   </body>
 </html>

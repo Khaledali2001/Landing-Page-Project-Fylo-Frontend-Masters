@@ -15,6 +15,8 @@
   --color-button-primary-bg: #3065f8;
   --color-button-primary-text: #f6f6fe;
   --button-shadow: 2px 2px 5px 1px rgba(7, 4, 57, 0.3);
+  /* card color */
+  --color-card-background: #fff;
   /* link colors */
   --color-link-primary: #3d9e8e;
   /* fonts */
@@ -24,6 +26,7 @@
 p {
   font-size: 16px;
 }
+/* header  */
 .header {
   padding: 3% 5%;
 }
@@ -42,9 +45,10 @@ p {
   padding-right: 5%;
   margin-top: -2.5%;
 }
+/* section 1 */
 .header__container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 5%;
 }
@@ -56,9 +60,11 @@ p {
 .header__heading {
   color: var(--color-text-on-primary);
   line-height: 1.5;
+  font-size: 3.2rem;
 }
 .header__content {
   color: var(--color-secondary);
+  font-size: 1.2rem;
 }
 .header__form-email {
   padding: 12px 50px;
@@ -77,6 +83,91 @@ p {
   flex: 1;
 }
 .header__right-section > .header__illustration {
+  width: 100%;
+}
+/* bg curve */
+.bg-curve__container {
+  background: url(../images/bg-curve-desktop.svg) no-repeat;
+  background-position: center top;
+  height: 114px;
+  width: 100%;
+  margin: 0;
+  margin-top: 5%;
+  padding: 0;
+}
+/* section 2 */
+.section-2 {
+  background-color: var(--heading-color-text-on-secondary);
+  padding-top: 0%;
+}
+.main__content__section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+}
+.section__left-section {
+  flex: 1;
+  padding-top: 0;
+  margin-top: 0;
+}
+.section__left_title {
+  color: var(--color-text-on-primary);
+  font-size: 2rem;
+  font-family: var(--heading-font-family);
+}
+.section__left_content-text {
+  font-family: var(--main-font-family);
+  color: var(--color-secondary);
+  font-size: 1.25rem;
+  margin: 7% 0;
+}
+.section__left_link {
+  color: var(--color-link-primary);
+  font-size: 1.3rem;
+}
+.section__left_link:hover {
+  color: var(--color-text-on-primary);
+}
+.link__img {
+  vertical-align: middle;
+}
+.section__left_blockquote {
+  background: var(--color-card-background);
+  padding: 3%;
+  margin-top: 5%;
+  width: 80%;
+  box-shadow: var(--button-shadow);
+}
+.blockquote__content {
+  font-size: 1.3rem;
+  color: var(--color-text-on-primary);
+}
+.blockquote__profile_pic {
+  border-radius: 70%;
+  margin-top: 1rem;
+  width: 13%;
+}
+.blockquote__container {
+  position: absolute;
+  display: inline;
+  padding: 1%;
+  margin-top: -1.2%;
+}
+.blockquote__name {
+  color: var(--color-text-on-primary);
+  font-weight: bold;
+}
+.blockquote__job {
+  color: var(--color-text-on-primary);
+  font-weight: bold;
+  position: relative;
+  bottom: 0.7rem;
+}
+.section__right-section {
+  flex: 1;
+}
+.section__right_img {
   width: 100%;
 }
 .attribution {
