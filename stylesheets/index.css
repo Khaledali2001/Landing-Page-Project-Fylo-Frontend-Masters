@@ -1,6 +1,5 @@
 @import url(./base.css);
 /* media queries  */
-/* mobile media query */
 @media screen and (max-width: 550px) {
   .main-section {
     flex-direction: column;
