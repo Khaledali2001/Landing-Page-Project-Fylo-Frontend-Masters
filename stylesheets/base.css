@@ -106,6 +106,7 @@ ul {
   font-size: 1.25rem;
   font-weight: bold;
   font-family: var(--main-font-family);
+  box-shadow: var(--button-shadow);
 }
 .main-content__btn:hover {
   background-color: var(--color-button-focus-bg);
@@ -202,13 +203,18 @@ ul {
 .footer__nav__menu {
   padding-bottom: 8%;
 }
+.footer__nav__menu:hover {
+  color: var(--color-secondary);
+}
 .attribution {
   padding-top: 5%;
   padding-bottom: 2%;
   font-size: 0.9rem;
   text-align: center;
-  color: var(--color-card-background);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: #3d52a3;
+}
+.attribution a:hover {
+  color: var(--color-secondary);
 }
