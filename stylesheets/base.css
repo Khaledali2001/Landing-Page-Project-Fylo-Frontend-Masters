@@ -8,7 +8,7 @@
   /* third colors */
   --bg-color-footer: var(--color-text-on-primary);
   --color-text-on-footer: var(--heading-color-text-on-secondary);
-  /* button colors */
+  /* button styles */
   --color-button-primary-bg: #3065f8;
   --color-button-focus-bg: #3044f8;
   --color-button-primary-text: #f6f6fe;
@@ -148,6 +148,7 @@ ul {
   box-shadow: var(--card-box-shadow);
   padding: 5%;
   margin-top: 10%;
+  border-radius: 4px;
 }
 .card__img-avatar {
   float: left;

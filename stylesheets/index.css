@@ -1,2 +1,41 @@
 @import url(./base.css);
 /* media queries  */
+@media screen and (max-width: 550px) {
+  .main-section {
+    flex-direction: column;
+  }
+  .section-left {
+    order: 1;
+  }
+  .main-content__heading,
+  .main-content__text {
+    text-align: center;
+  }
+  .main-content__link {
+    display: inline-block;
+    text-align: center;
+    margin-left: 25%;
+  }
+  .main-content__email {
+    display: inline-block;
+    width: 80%;
+  }
+  .main-content__btn {
+    display: inline-block;
+    width: 80%;
+    padding: 4% 7%;
+    margin-top: 1%;
+    text-align: center;
+  }
+  .section-3 .main-content__btn {
+    display: inline-block;
+    width: 80%;
+    padding: 4% 7%;
+  }
+  .footer__main {
+    flex-direction: column;
+  }
+  .footer__nav__menu {
+    padding-left: 8%;
+  }
+}
