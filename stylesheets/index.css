@@ -1,5 +1,6 @@
 @import url(./base.css);
 /* media queries  */
+/* mobile media query */
 @media screen and (max-width: 550px) {
   .main-section {
     flex-direction: column;
@@ -24,13 +25,20 @@
     display: inline-block;
     width: 80%;
     padding: 4% 7%;
-    margin-top: 1%;
+    margin-top: 5%;
     text-align: center;
+  }
+  .section-3 .main-content__email {
+    padding: 4% 7%;
   }
   .section-3 .main-content__btn {
     display: inline-block;
     width: 80%;
     padding: 4% 7%;
+    margin-top: 2%;
+  }
+  .contact-info {
+    margin: 10%;
   }
   .footer__main {
     flex-direction: column;
