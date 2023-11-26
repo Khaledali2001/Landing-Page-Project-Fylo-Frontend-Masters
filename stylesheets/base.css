@@ -207,6 +207,12 @@ ul {
 .footer__nav__menu:hover {
   color: var(--color-secondary);
 }
+.social-menu__img {
+  width: 15%;
+  margin: 5%;
+  border: 1px solid;
+  border-radius: 50%;
+}
 .attribution {
   padding-top: 5%;
   padding-bottom: 2%;

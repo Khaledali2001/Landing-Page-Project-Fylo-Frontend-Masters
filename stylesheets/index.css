@@ -45,4 +45,11 @@
   .footer__nav__menu {
     padding-left: 8%;
   }
+  .social-menu {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  .social-menu__img {
+    width: 15%;
+  }
 }
